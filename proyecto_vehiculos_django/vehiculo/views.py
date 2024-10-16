@@ -8,6 +8,7 @@ def index(request):
 def agregar_vehiculo(request):
     if request.method == 'POST':
         form = VehiculoForm(request.POST)
+        
         if form.is_valid():
             form.save()
             return redirect('index')   
