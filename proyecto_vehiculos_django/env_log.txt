@@ -1,0 +1,14 @@
+# env_log.txt
+# Comandos utilizados para crear el entorno virtual y el proyecto Django
+
+1. Crear el entorno virtual:
+   virtualven proyecto_vehiculos_django_venv
+
+2. Activar el entorno virtual:
+   proyecto_vehiculos_django_venv\Scripts\activate
+
+3. Instalar dependencias:
+   pip install django==4.0.5 django-bootstrap-v5==1.0.11   django-crispy-forms==1.14.0 crispy-bootstrap5==0.6
+
+4. Crear el proyecto Django:
+   django-admin startproject config .
