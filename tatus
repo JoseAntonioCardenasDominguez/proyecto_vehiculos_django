@@ -1,0 +1,48 @@
+[33mcommit f7adb22903318c90686bdc7dcf3d369dc5f130aa[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m)[m
+Merge: d591409 6e8cde6
+Author: JoseAntonioCardenasDominguez” <jose.cardenas.dominguez@gmail.com”>
+Date:   Wed Oct 16 18:09:39 2024 -0300
+
+    Resuelvo conflictos tras el pull
+
+[33mcommit d5914092813fe2dc5a2d32b73e3ffb5dd925e4c6[m
+Author: JoseAntonioCardenasDominguez” <jose.cardenas.dominguez@gmail.com”>
+Date:   Wed Oct 16 18:08:07 2024 -0300
+
+    Parte dos formulario de ingreso
+
+[33mcommit 1e238b33d335b3fde2500e17e0a7db3c77415575[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: JoseAntonioCardenasDominguez” <jose.cardenas.dominguez@gmail.com”>
+Date:   Wed Oct 16 14:21:23 2024 -0300
+
+    Nueva app para el proyecto: vehiculo. Incluye modelo Vehiculo y su migracion inicial
+
+[33mcommit 6e8cde6ed54fb1f320d017d8cef4606d08a9aa07[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: JoseAntonioCardenasDominguez <jose.cardenas.dominguez@gmail.com>
+Date:   Wed Oct 16 13:39:47 2024 -0300
+
+    Add files via upload
+
+[33mcommit c7728d7a28badf784c6e8011755693397415e726[m[33m ([m[1;32mmain[m[33m)[m
+Author: JoseAntonioCardenasDominguez” <jose.cardenas.dominguez@gmail.com”>
+Date:   Wed Oct 16 13:33:14 2024 -0300
+
+    Proyecto en su estado inicial
+
+[33mcommit 3a06d0d837466629056c7778cb41bd581e750de2[m
+Author: JoseAntonioCardenasDominguez <jose.cardenas.dominguez@gmail.com>
+Date:   Wed Oct 16 13:10:20 2024 -0300
+
+    Update README.md
+
+[33mcommit 6b480a5deb4e68852fd5f6cfe52b89c37bb4f8c1[m
+Author: JoseAntonioCardenasDominguez <jose.cardenas.dominguez@gmail.com>
+Date:   Wed Oct 16 12:52:27 2024 -0300
+
+    Create README.md
+
+[33mcommit 6b275a4d447848ce0ac25f471559fee54085ed93[m
+Author: JoseAntonioCardenasDominguez” <jose.cardenas.dominguez@gmail.com”>
+Date:   Wed Oct 16 12:23:45 2024 -0300
+
+    Proyecto en su estado inicial
