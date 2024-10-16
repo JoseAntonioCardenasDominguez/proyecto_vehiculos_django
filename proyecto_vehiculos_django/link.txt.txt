@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 https://github.com/tu_usuario/proyecto_vehiculos_django
+=======
+https://github.com/tu_usuario/proyecto_vehiculos_django
+>>>>>>> 1e238b3 (Nueva app para el proyecto: vehiculo. Incluye modelo Vehiculo y su migracion inicial)
