@@ -1,5 +1,9 @@
 # vehiculo/models.py
+
 from django.db import models
+from django.contrib.auth.models import User
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 
 class Vehiculo(models.Model):
     MARCAS = [
@@ -7,14 +11,12 @@ class Vehiculo(models.Model):
         ('Ford', 'Ford'),
         ('Chevrolet', 'Chevrolet'),
         ('Fiat', 'Fiat'),
-         
     ]
     
     CATEGORIAS = [
         ('Particular', 'Particular'),
         ('Transporte', 'Transporte'),
         ('Carga', 'Carga'),
-        
     ]
 
     marca = models.CharField(max_length=50, choices=MARCAS, default='Ford')
@@ -26,3 +28,22 @@ class Vehiculo(models.Model):
 
     def __str__(self):
         return f"{self.marca} {self.modelo}"
+
+    @property
+    def condicion(self):
+        if self.precio < 10000:
+            return 'Bajo'
+        elif self.precio <= 30000:
+            return 'Medio'
+        else:
+            return 'Alto'
+
+    class Meta:
+        permissions = [
+            ("visualizar_catalogo", "Puede visualizar el catálogo de vehículos"),
+        ]
+
+@receiver(post_save, sender=User)
+def assign_default_permissions(sender, instance, created, **kwargs):
+    if created:
+        instance.user_permissions.add('visualizar_catalogo')

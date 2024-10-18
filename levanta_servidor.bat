@@ -1,0 +1,1 @@
+python proyecto_vehiculos_django\manage.py runserver

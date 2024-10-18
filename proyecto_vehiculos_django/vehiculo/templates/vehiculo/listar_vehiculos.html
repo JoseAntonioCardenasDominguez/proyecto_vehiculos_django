@@ -16,6 +16,7 @@
                 <th>Serial Motor</th>
                 <th>Categoría</th>
                 <th>Precio</th>
+                <th>Condición</th> <!-- Nueva columna -->
             </tr>
         </thead>
         <tbody>
@@ -27,6 +28,7 @@
                 <td>{{ vehicle.serial_motor }}</td>
                 <td>{{ vehicle.categoria }}</td>
                 <td>{{ vehicle.precio }}</td>
+                <td>{{ vehicle.condicion }}</td> <!-- Muestra la condición -->
             </tr>
             {% endfor %}
         </tbody>
